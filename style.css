@@ -1,3 +1,7 @@
+
+.container{
+    margin-bottom: 20px;
+}
 .orange-bg{
     background-color: #fceae8;
 }
@@ -24,5 +28,21 @@
     font-weight: bold;
 }
 .navbar-brand img{
-    padding: 3px 1px;
+    margin-top: 9px;
+    padding: 1px 1px;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+  
+}
+
+
+.cat1{
+    background-color: coral;
+}
+.cat2{
+    background-color: rgb(113, 222, 230);
+}
+.cat3{
+    background-color: rgb(245, 86, 197);
 }
