@@ -1,0 +1,28 @@
+.orange-bg{
+    background-color: #fceae8;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: rgb(253, 31, 31);
+}
+.bur-now-button{
+    background-image: linear-gradient(to bottom,#FF589b 0%, #ff136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.mama{
+    color: rgb(61, 107, 145);
+    padding: 4px 0px;
+}
+.data{
+    color: rgb(146, 75, 104);
+    font-weight: bold;
+}
+.navbar-brand img{
+    padding: 3px 1px;
+}
