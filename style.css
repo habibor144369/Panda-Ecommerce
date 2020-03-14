@@ -1,12 +1,24 @@
 
 .container{
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    padding: 20px 20px;
 }
 .orange-bg{
+    background-image: linear-gradient(to bottom, rgb(211, 240, 250) 0%, rgb(250, 217, 230) 100%); 
     background-color: #fceae8;
 }
 .carousel-item{
     padding: 20px 40px;
+   
+}
+.navbar{
+    border-radius: 10px;
+    box-shadow: 5px 5px 18px rgb(109, 110, 110);
+}
+
+#carouselExampleIndicators{
+    border-radius: 10px;
+    box-shadow: 5px 5px 28px rgb(86, 87, 87);
 }
 .price{
     color: rgb(253, 31, 31);
@@ -22,6 +34,7 @@
 .mama{
     color: rgb(61, 107, 145);
     padding: 4px 0px;
+    
 }
 .data{
     color: rgb(146, 75, 104);
@@ -32,17 +45,176 @@
     padding: 1px 1px;
 }
 .cat1, .cat2, .cat3{
-    padding: 10px 30px;
-  
+    padding: 10px 30px; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 18px rgb(109, 110, 110);
 }
-
-
 .cat1{
-    background-color: coral;
+    background-image: linear-gradient(to bottom,rgb(225, 250, 133) 0%, rgb(19, 208, 255) 100%);
 }
 .cat2{
-    background-color: rgb(113, 222, 230);
+    background-image: linear-gradient(to bottom,rgb(143, 213, 253) 0%, rgb(243, 151, 197) 100%);
 }
 .cat3{
-    background-color: rgb(245, 86, 197);
+    background-image: linear-gradient(to bottom,rgb(130, 222, 250) 0%, rgb(199, 252, 169) 100%);
+}
+.catagories h1{
+    color: cornsilk;
+    font-weight: bold;
+}
+.catagories img{
+    width: 130px;
+}
+.tata span{
+    color: rgb(45, 96, 138);;
+}
+.nana{
+    color: rgb(253, 31, 31);
+}
+.card-text{
+    color: rgb(33, 106, 155);
+}
+.card{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 18px rgb(109, 110, 110);
+    background-image: linear-gradient(to bottom, rgb(211, 240, 250) 0%, rgb(250, 217, 230) 100%); 
+}
+.card-title{
+    color: rgb(30, 90, 114);
+    font-size: 28px;
+    font-weight: bold;
+}
+.nav-item{
+    font-size: 20px;
+}
+#subscribe{
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgb(135, 144, 150);
+}
+#subscribe h6{
+    color: rgb(151, 140, 140);
+}
+.chompa{
+    color: rgb(233, 122, 122);
+}
+footer{
+    text-align: center;
+    color: rgb(151, 140, 140);
+} 
+
+/*new styale adding*/
+
+ {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 140px;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+.mamo h2{
+    color: rgb(226, 93, 93);
 }
