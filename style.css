@@ -218,3 +218,6 @@ hr {
 .mamo h2{
     color: rgb(226, 93, 93);
 }
+.clearfix button{
+  border-radius: 10px;
+}
